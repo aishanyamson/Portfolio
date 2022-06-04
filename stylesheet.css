@@ -9,3 +9,23 @@
 .intro {
     text-align: justify;
 }
+
+body {
+    background-color: #9BA3EB
+}
+hr {
+    border-style: dotted none none;
+    width: 5%;
+    border-color: gray;
+    border-width: 5px;
+}
+h1 {
+    color: #646FD4;
+    letter-spacing: 10px;
+    text-shadow: 1.7px 1.7px;
+    font-variant: small-caps;
+    font-style: bolder;
+}
+h3 {
+    color: #646FD4;
+}
