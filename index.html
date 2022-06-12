@@ -4,29 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>💗 Aisha's Portfolio</title>
+    <title> Aisha Nyamson</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Vollkorn&display=swap');
+    </style>
 </head>
 <body>
-    <div class="memoji">
-    <img src="images/no-background-avatar.png" alt="Memoji of Aisha with a laptop which has stickers of the languages she can code in" width="300px" height="300px"><br>
-    </div>
-    <br>
-    <br>
-    <br>
     <div class="intro">
-    <h1>Aisha Nyamson</h1>
-    <p><em>Aspiring Developer</em></p>
-    <p>I am an aspiring iOS and Full Stack Developer. I love to sing and all things music! Welcome to my portfolio and I hope you enjoy it! ☺</p>
+    <h1 class="name">Hi, I am Aisha</h1>
+    <p class="name-2">I am an aspiring iOS and Full Stack Developer. I love to sing and all things music! Welcome to my portfolio and I hope you enjoy it!</p>
+    <img src="images/no-background-avatar.png" alt="Memoji of Aisha with a laptop which has stickers of the languages she can code in" width="300px" height="300px" class="centre">
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <hr>
+    <div class="learning">
     <h3>How I am Learning:</h3>
     <ul>
         <li>Black Codher x Goldman Sachs Full Stack BootCamp</li>
@@ -36,7 +27,8 @@
         <li>Introduction to UI and UX Design with CodeCademy</li>
         <li>Fundamentals of Cybersecurity with CodeCademy</li>
     </ul>
-    <hr>
+    </div>
+    <div class="education">
     <h3>My Educational Background</h3>
     <ul>
         <li>Edenham High School</li>
@@ -64,14 +56,16 @@
             </ul>
         </li>    
     </ul>
-    <hr>
+    </div>
+    <div class="hobbies">
     <h3>My Hobbies</h3>
     <ul>
         <li>Singing</li>
         <li>Watching Korean Dramas</li>
         <li>Cooking and Baking</li>
     </ul>
-    <hr>
+    </div>
+    <div class="work">
     <h3>Work Experience</h3>
     <table cellspacing="15">
         <thead>
@@ -94,8 +88,8 @@
 
         </tfoot>
     </table>
-    <hr>
-
+    </div>
+    <div class="skills">
     <h3>Skills</h3>
     <table cellspacing="15">
         <tbody>
@@ -133,7 +127,19 @@
             </tr>
         </tbody>
     </table>
-    <hr>
-    <a href="Contact.html">Contact Me!</a>
+    </div>
+    <div class="contact">
+    <h1>Contact Me</h1>
+    <br>
+    <form action="mailto:aishanyamson@outlook.com" method="post" enctype="text/plain">
+        <label>Your Name:</label>
+        <input type="text" name="yourName" value=""><br>
+        <label>Your Email:</label>
+        <input type="email" name="yourEmail" id=""><br>
+        <label>Your Message:</label><br>
+        <textarea name="yourMessage" cols="30" rows="10"></textarea><br>
+        <input type="submit" name="">
+    </form>
+    </div>
 </body>
 </html>
