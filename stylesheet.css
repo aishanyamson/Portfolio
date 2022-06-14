@@ -9,6 +9,7 @@
         display: inline-grid;
         justify-self: center;
     }
+
     .centre {
         /* display: relative; */
         margin-left: auto;
@@ -17,7 +18,7 @@
         padding-bottom: 30px;
     }
 
-    
+
     .name {
         text-align: left;
         padding-top: 100px;
@@ -25,7 +26,7 @@
         font-weight: 200;
         margin-left: 100px;
     }
-    
+
     .name-2 {
         text-align: left;
         margin-left: 30px;
@@ -43,6 +44,7 @@
     }
 
 }
+
 .centre {
     display: block;
     margin-left: auto;
@@ -88,11 +90,86 @@
     margin: 0;
 }
 
-.education {
+.education-container {
     position: relative;
-    height: 100vh;
-    max-width: 100%;
+    /* height: 100vh; */
+    width: 300px;
+    margin: auto;
+}
+
+/* div {
+    width: 300px;
+    margin: auto;
+  } */
+
+.education {
+    border-top: 2px dashed;
+    border-color: blue !important;
     margin: 0;
+    padding: 30px;
+    counter-increment: section;
+    position: relative;
+}
+
+
+
+.education:nth-child(even):before {
+    content: counter(section);
+    right: 100%;
+    margin-right: -20px;
+    position: absolute;
+    border-radius: 50%;
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-size: 110%;
+}
+
+.education:nth-child(odd):before {
+    content: counter(section);
+    left: 100%;
+    margin-left: -20px;
+    position: absolute;
+    border-radius: 50%;
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-size: 110%;
+}
+
+
+
+.education:nth-child(even) {
+    border-left: 2px dashed;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-right: 30px;
+    padding-right: 0;
+}
+
+.education:nth-child(odd) {
+    border-right: 2px dashed;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: 30px;
+    padding-left: 0;
+}
+
+.education:first-child {
+    border-top: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.education:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 .hobbies {
@@ -128,20 +205,23 @@ body {
     padding: 0;
     margin: 0;
 }
+
 hr {
     border-style: dotted none none;
     width: 5%;
     border-color: gray;
     border-width: 5px;
 }
+
 h1 {
     color: #161313;
     /* letter-spacing: 10px;
     text-shadow: 1.7px 1.7px;
     font-variant: small-caps; */
     font-family: 'Vollkorn', serif;
-    text-align: justify; 
+    text-align: justify;
 }
+
 h3 {
     color: #646FD4;
 }
