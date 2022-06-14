@@ -7,7 +7,8 @@
 
     .intro {
         display: inline-grid;
-        justify-self: center;
+        /* justify-self: center; */
+        position: justify;
     }
 
     .centre {
@@ -43,6 +44,15 @@
         color: #161313;
     }
 
+    h1 {
+        color: #161313;
+        /* letter-spacing: 10px;
+        text-shadow: 1.7px 1.7px;
+        font-variant: small-caps; */
+        font-family: 'Vollkorn', serif;
+        text-align: center;
+    }
+
 }
 
 .centre {
@@ -68,10 +78,10 @@
 }
 
 .intro {
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-color: #E5E5E5;
     background-image: url(images/Background.png);
-    background-position: 50%;
+    /* background-position: 50%; */
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -80,7 +90,7 @@
 }
 
 .learning {
-    position: relative;
+    position: justify;
     /* padding-top: 30px;
     left:0;
     right:0;
