@@ -93,9 +93,10 @@
 
 .education-container {
     position: relative;
-    /* height: 100vh; */
+    height: 100vh;
     width: 300px;
-    margin: auto;
+    margin: 0;
+    padding-top: 30px;
 }
 
 /* div {
@@ -105,7 +106,7 @@
 
 .learning {
     border-top: 2px dashed;
-    border-color: blue !important;
+    border-color: #646FD4 !important;
     margin: 0;
     padding: 30px;
     counter-increment: section;
@@ -123,7 +124,7 @@
     padding: 10px;
     height: 20px;
     width: 20px;
-    background-color: blue;
+    background-color: #646FD4;
     text-align: center;
     color: white;
     font-size: 110%;
@@ -138,7 +139,7 @@
     padding: 10px;
     height: 20px;
     width: 20px;
-    background-color: blue;
+    background-color: #646FD4;
     text-align: center;
     color: white;
     font-size: 110%;
@@ -224,10 +225,21 @@ h1 {
 }
 
 h3 {
-    color: #646FD4;
+    color: #161313;
+    font-family: 'Vollkorn', serif;
 }
 
 p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.04em;
+    color: #161313;
+}
+
+li {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 300;
