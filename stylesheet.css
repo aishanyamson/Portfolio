@@ -20,12 +20,13 @@ header {
     padding: 35px 16%;
     background: transparent;
     transition: ease .40s;
-    background: #EAE7DC;
+    background: #b9c7f3;
 }
 
 .logo img {
     width: 140px;
     height: auto;
+    margin-left: 9%;
 }
 
 .navlist {
@@ -34,7 +35,7 @@ header {
 
 .navlist a {
     display: inline-block;
-    color: #6F7378;
+    color: #042A2B;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -44,7 +45,7 @@ header {
 }
 
 .navlist a:hover{
-    color: #F3BAE4;
+    color: #EF7B45;
     transition: .5s;
 }
 
@@ -65,7 +66,7 @@ header {
     width: 100%;
     height: 100vh;
     align-items: center;
-    background: #EAE7DC;
+    background: #b9c7f3;
 }
 
 .content {
@@ -77,7 +78,7 @@ header {
 }
 
 .content h1 {
-    color: #6F7378;
+    color: #042A2B;
     font-size: 90px;
     /* max-width: 200px; */
     font-weight: 700;
@@ -95,14 +96,14 @@ header {
 } 
 
 .btn {
-    background-color: #F3BAE4;
+    background-color: #EF7B45;
     display: inline-block;
     padding: 10px 18px;
     color: #fff;
     font-size: 16px;
     font-weight: 600;
     text-decoration: none;
-    border: 1px solid #F3BAE4;
+    border: 1px solid #EF7B45;
     border-radius: 5px;
     margin: 30px 0;
     transition: all .40s ease;
@@ -117,6 +118,13 @@ header {
     /* Makes the button get bigger when hovered  */
     transition: .5s;
     z-index: 2;
+}
+
+
+.middle img {
+    position: absolute;
+    right: 50px;
+    top: 50px;
 }
 
 @media (max-width: 1330px){
