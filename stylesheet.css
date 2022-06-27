@@ -136,7 +136,9 @@ header {
     .content h1{
         font-size: 80px;
         transition: .3s;
+        
     }
+
 }
 
 @media (max-width: 990px){
@@ -163,6 +165,15 @@ header {
     .navlist.open{
         top: 100%;
     }
+
+    .middle img {
+       display: none;
+    }
+
+    .content {
+        padding-left: 8%;
+    }
+
  }
 
 /* .hero {
