@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Aisha Nyamson</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,15 +22,15 @@
 <body>
     <section class="hero" id="home">
     <div class="container">
-    <header>
-        <a href="#" class="logo"><img src="images/A N.png" alt="logo-img" class="logo"></a>
+    <header class="sticky">
+        <a href="#" class="logo">AISHA</a>
         <div class="bx bx-menu" id="menu-icon"></div>
         <ul class="navlist">
-            <li><a href="#home" class="active">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">PORTFOLIO</a></li>
-            <li><a href="#">SKILLS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
                 <!-- <div class="box">
                     <button type="button">Let's Talk</button>
@@ -40,11 +40,11 @@
     </header>
     </section>
 
-    <section class="main">
-            <div class="content">
+    <section class="home" id="home" >
+            <div class="home-content">
                 <h1>Hello, <br> I'm Aisha.</h1>
-                <p>I am an aspiring App and Full Stack Developer. <br> Welcome to my portfolio and I hope you enjoy it!
-                </p>
+                <p>I am an aspiring App and Full Stack Developer.</p>
+                <p> Welcome to my portfolio and I hope you enjoy it!</p>
                 <a href="#" class="btn">See Projects</a>
 
             </div>
@@ -53,6 +53,71 @@
                 <img src="images/no-background-avatar.png"
                     alt="picture of me">
             </div> 
+        </div>
+    </section>
+
+    <!-------start about-------->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about-img.png" alt="memojI">
+        </div>
+
+        <div class="about-text">
+            <h2>About Me</h2>
+            <h5>Full Stack Developer</h5>
+            <p>I am a previous birmingham law school student currently completing a bootcamp with Black Codher sponsored by Goldman Sachs.
+                Upon completion of this bootcamp I will be a full stack developer and will be fully equiped to start my career in tech. 
+                Thank you for taking the time to go through my portfolio! 
+            </p>
+            <a href="#" class="cv-btn">Download CV</a>
+
+
+        </div>
+    </section>
+
+    <!-------start Portfolio-------->
+    <section class="portfolio" id="portfolio">
+        <div class="center">
+            <h2>My Projects</h2>
+            <p>These are the projects I have completed and the ones yet to come.</p>
+        </div>
+
+        <div class="portfolio-content">
+            <div class="box">
+                <img src="images/Portfolio.png" alt="portfolio">
+                <p>Web Design</p>
+                <h5>My Portfolio</h5>
+            </div>
+            <div class="box">
+                <img src="images/coming-soon.jpeg" alt="">
+                <p>Javascript Project</p>
+                <h5>Group Project</h5>
+
+            </div>
+
+            <div class="box">
+                <img src="" alt="">
+                <p>React Project</p>
+                <h5>Coming Soon</h5>
+            </div>
+
+            <div class="box">
+                <img src="" alt="">
+                <p>Node Project</p>
+                <h5>Coming Soon</h5>
+            </div>
+
+            <div class="box">
+                <img src="" alt="">
+                <p>MongoDB Project</p>
+                <h5>Coming Soon</h5>
+            </div>
+
+            <div class="box">
+                <img src="" alt="">
+                <p>Personal Project</p>
+                <h5>Coming Soon</h5>
+            </div>
         </div>
     </section>
     <!------ link to js script -->
