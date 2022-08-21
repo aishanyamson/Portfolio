@@ -230,6 +230,26 @@ header.sticky{
     margin-top: 4.5rem;
 }
 
+ .social-media {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+
+}
+
+.social-media img {
+    display: inline-block;
+    float: none;
+    margin: 30px;
+
+}
+
+.footer {
+    padding: 100px 0px 0px 900px;
+    
+    
+}
+
 @media (max-width: 1330px){
     header {
         padding: 10px 5%;
